@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:text="计算器"
+            android:textSize="40px"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:gravity="center"
+            android:background="#666"
+            android:text="计算器"
+            android:textSize="30px"
+            android:layout_toRightOf="@id/tv1"
+            />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:text="计算器"
+            android:textSize="27px"
+            android:layout_toRightOf="@id/tv2"
+            android:paddingTop="1px"
+            />
+        <TextView
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:gravity="center"
+            android:background="#666"
+            android:text="计算器"
+            android:layout_toRightOf="@id/tv3"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/gotoNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto"
+        />
+</LinearLayout>
