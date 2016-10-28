@@ -1,5 +1,5 @@
 # 优雅的发布Android开源库(论JitPack的优越性)
-### 作者微博: <a href="http://weibo.com/GcsSloop" target="_blank">@GcsSloop</a>
+### 转自: <a href="https://github.com/GcsSloop/AndroidNote/blob/master/Course/ReleaseLibraryByJitPack.md" target="_blank">ReleaseLibraryByJitPack</a>
 ### [JitPack地址](https://jitpack.io)
 
 ## 前言
@@ -144,9 +144,3 @@ buildscript {
 
 **以上就是教程的全部内容，各位小伙伴可以回去愉快的发布自己的开源库了。**
 ### [JitPack地址](https://jitpack.io)
-
-## About Me
-
-### 作者微博: <a href="http://weibo.com/GcsSloop" target="_blank">@GcsSloop</a>
-
-<a href="https://github.com/GcsSloop/AndroidNote/blob/magic-world/FINDME.md" target="_blank"> <img src="http://ww4.sinaimg.cn/large/005Xtdi2gw1f1qn89ihu3j315o0dwwjc.jpg" width=300/> </a>
