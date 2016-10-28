@@ -1,4 +1,4 @@
-package zhy.com.autolayout;
+package com.by.autolayout;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
