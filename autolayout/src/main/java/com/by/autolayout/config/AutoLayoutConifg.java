@@ -64,6 +64,14 @@ public class AutoLayoutConifg
         return mScreenHeight;
     }
 
+    public void setScreenHeight(int mScreenHeight) {
+        this.mScreenHeight = mScreenHeight;
+    }
+
+    public void setScreenWidth(int mScreenWidth) {
+        this.mScreenWidth = mScreenWidth;
+    }
+
     public int getDesignWidth()
     {
         return mDesignWidth;
