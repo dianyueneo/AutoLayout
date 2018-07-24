@@ -27,6 +27,8 @@ public class AutoLayoutConifg
 
     private boolean useDeviceSize;
 
+    private boolean isInited = false;
+
 
     private AutoLayoutConifg()
     {
@@ -85,6 +87,12 @@ public class AutoLayoutConifg
 
     public void init(Context context)
     {
+
+        if(isInited){
+            return;
+        }
+        isInited = true;
+
         getMetaData(context);
 
         int[] screenSize = ScreenUtils.getScreenSize(context, useDeviceSize);
